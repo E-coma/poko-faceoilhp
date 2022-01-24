@@ -78,7 +78,7 @@ header {
 #question img {
     display: block;
     margin: 200px auto;
-    padding-right: 64px;
+    margin-right: 64px;
     width: 100%;
     max-width: 1097px;
 }
