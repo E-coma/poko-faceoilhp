@@ -70,9 +70,9 @@ header {
 }
 
 #toptext2 p:nth-child(1) {
-    left: 35vw;
-    top: 84%;
-    font-size: 2vw;
+    left: 38vw;
+    top: 80%;
+    font-size: 1.6vw;
 }
 
 #question img {
@@ -86,7 +86,7 @@ header {
 .main {
     width: auto;
     height: 1020px;
-    background: -webkit-linear-gradient(top, #FFF -1%, #b0fffb3b 7%, #b0fffb69);
+    background: -webkit-linear-gradient(top, #FFF -1%, #85cbdb1a 7%, #85cbdb38);
     position: relative;
     overflow: hidden;
 }
@@ -189,34 +189,34 @@ header {
     background-image: url(img/green-img.png);
     background-repeat: no-repeat;
     background-position: top left;
-    background-size: 352px;
+    background-size: 22vw;
     position: relative;
-    margin-top: 50px;
+    margin-top: 120px;
 }
 
 #greentext1 {
-    position: absolute;
-    font-size: 38px;
-    font-weight: 600;
-    top: 10px;
-    left: 392px;
+    font-size: 40px;
+    letter-spacing: 1.2px;
+    margin: 0 auto;
+    text-align: center;
 }
 
 #greentextbox {
-    position: absolute;
-    background-color: #b0fffb69;
+    background-color: #85cbdb28;
     border-radius: 30px;
-    top: 20%;
-    left: 392px;
-    width: 60vw;
-    height: 485px;
+    width: auto;
+    max-width: 780px;
+    padding: 0 50px;
+    height: 520px;
+    margin: 0 auto;
 }
 
 #greentextbox>p {
-    padding: 37px 0 50px 0;
+    padding: 60px 0 50px 0;
     text-align: center;
-    font-size: 15px;
+    font-size: 17px;
 }
+
 #greentextbox ul {
     list-style-type: none;
     display: flex;
@@ -231,24 +231,52 @@ figure {
 }
 
 #greendownimg {
-    position: absolute;
-    top: 70%;
+    width: 640px;
+    padding: 0 50px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+#greendownimg img {
+    width: 15%;
 }
 
 #greendowntext {
-    position: absolute;
+    font-size: 40px;
+    letter-spacing: 1.2px;
+    color: #85cbdb;
+    text-align: center;
 }
 
 
-
-
-
-
-
-
-
-
-
 #howtouse {
+    width: auto;
+    height: 1020px;
+    background: -webkit-linear-gradient(top, #FFF -1%, #85cbdb1a 7%, #85cbdb38);
     position: relative;
+    overflow: hidden;
+}
+
+#howtotext1 {
+    width: 600px;
+    left: 31%;
+    margin: 0 auto;
+    text-align: center;
+    border-bottom: 2px solid #000;
+}
+#howtotext1 p {
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+}
+
+#howtosunmoonimg {
+    text-align: center;
+    margin-top: 100px;
+}
+
+#howtosunmoonimg img {
+    width: 123px;
 }
