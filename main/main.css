@@ -38,7 +38,9 @@ header {
 }
 
 #top img {
+    display: block;
     width: 100%;
+    margin: 0 auto;
 }
 
 #top-bg p {
@@ -48,7 +50,7 @@ header {
 
 #toptext p:nth-child(1) {
     font-family: 'Open Sans', sans-serif;
-    top: 12%;
+    top: 10%;
     right: 14%;
     font-size: 3.5vw;
     font-weight: 200;
@@ -79,4 +81,174 @@ header {
     padding-right: 64px;
     width: 100%;
     max-width: 1097px;
+}
+
+.main {
+    width: auto;
+    height: 1020px;
+    background: -webkit-linear-gradient(top, #FFF -1%, #b0fffb3b 7%, #b0fffb69);
+    position: relative;
+    overflow: hidden;
+}
+
+.main #maintext1 {
+    display: block;
+    font-size: 38px;
+    margin: 20px auto;
+    text-align: center;
+    padding: 62px 0 50px 0;
+}
+
+#maintext1 p {
+    margin: 0;
+}
+
+#mainimg {
+    position: absolute;
+    top: 30%;
+    right: 47%;
+    width: 535px;
+}
+
+#mainimg img {
+    border-radius: 30px;
+    width: 100%;
+}
+
+#mainimginner {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 30px;
+    width: 535px;
+    height: 370px;
+    top: 46%;
+    left: 47%;
+}
+
+#maininnertext1 {
+    font-size: 30px;
+    margin-top: 45px;
+    margin-left: 40px;
+    letter-spacing: 1.8px;
+    font-weight: 600;
+}
+
+#maininnertext2 {
+    margin-left: 40px;
+    margin-top: 42px;
+    letter-spacing: 0.8px;
+    font-size: 15px;
+}
+
+#button {
+    position: absolute;
+    bottom: 22%;
+    font-family: 'Open Sans', sans-serif;
+    right: 63vw;
+
+}
+
+#button a {
+    display: block;
+    letter-spacing: 3px;
+    text-decoration: none;
+    position: relative;
+    margin: 0 auto;
+    padding: 0.5em 2em;
+    width: 120px;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    background-color: #ffffff;
+    transition: 0.3s;
+}
+
+#button a::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: -17px;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 2px;
+    background-color: #000;
+    transition: 0.3s;
+}
+
+#button a:hover {
+    text-decoration: none;
+    background-color: #ffd16dc0;
+}
+
+#button a:hover::after {
+    transform: translateX(3px);
+}
+
+#green {
+    width: auto;
+    height: 1100px;
+    background-image: url(img/green-img.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: 352px;
+    position: relative;
+    margin-top: 50px;
+}
+
+#greentext1 {
+    position: absolute;
+    font-size: 38px;
+    font-weight: 600;
+    top: 10px;
+    left: 392px;
+}
+
+#greentextbox {
+    position: absolute;
+    background-color: #b0fffb69;
+    border-radius: 30px;
+    top: 20%;
+    left: 392px;
+    width: 60vw;
+    height: 485px;
+}
+
+#greentextbox>p {
+    padding: 37px 0 50px 0;
+    text-align: center;
+    font-size: 15px;
+}
+#greentextbox ul {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+figure {
+    text-align: center;
+    margin: 0;
+}
+
+#greendownimg {
+    position: absolute;
+    top: 70%;
+}
+
+#greendowntext {
+    position: absolute;
+}
+
+
+
+
+
+
+
+
+
+
+
+#howtouse {
+    position: relative;
 }
