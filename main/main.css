@@ -253,7 +253,6 @@ figure {
     width: auto;
     height: 1020px;
     background: -webkit-linear-gradient(top, #FFF -1%, #85cbdb1a 7%, #85cbdb38);
-    position: relative;
     overflow: hidden;
 }
 
@@ -264,6 +263,7 @@ figure {
     text-align: center;
     border-bottom: 2px solid #000;
 }
+
 #howtotext1 p {
     font-size: 48px;
     text-align: center;
@@ -274,9 +274,53 @@ figure {
 
 #howtosunmoonimg {
     text-align: center;
-    margin-top: 100px;
+    position: absolute;
+    top: -6%;
+    left: 46%;
 }
 
 #howtosunmoonimg img {
     width: 123px;
+}
+
+#howtoinner {
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 30px;
+    width: 1100px;
+    height: 370px;
+    margin: 72px auto;
+    padding: 95px 0;
+    position: relative;
+}
+
+#figinner {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#rightimg img {
+    padding-top: 60px;
+}
+
+#inner-img1 {
+    position: absolute;
+    bottom: -5%;
+    left: -7%;
+    width: 25vw;
+}
+
+#inner-img1 img {
+    width: 50%;
+}
+
+#inner-img2 {
+    position: absolute;
+    bottom: -18%;
+    left: 86%;
+    width: 560px;
+    transform: rotate(11deg);
+}
+
+#inner-img2 img {
+    width: 60%;
 }
