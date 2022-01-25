@@ -7,25 +7,20 @@ body {
     font-family: 'Klee One', cursive;
     font-weight: 400;
     margin: 0;
+    letter-spacing: 1.1px;
 }
-
+/* 
 header {
     width: auto;
-    max-width: 1280px;
-    display: flex;
+    position: fixed;
+    right: 10px;
+    top: 10px;
     justify-content: space-between;
     margin: 0 auto;
     align-items: center;
-}
+    z-index: 99999;
+} */
 
-#headerlogo {
-    font-size: 200%;
-    margin: 0;
-}
-
-#headerlogo p {
-    margin: 0 auto;
-}
 
 #top {
     width: auto;
@@ -70,7 +65,7 @@ header {
 }
 
 #toptext2 p:nth-child(1) {
-    left: 38vw;
+    left: 37vw;
     top: 80%;
     font-size: 1.6vw;
 }
@@ -78,7 +73,6 @@ header {
 #question img {
     display: block;
     margin: 200px auto;
-    margin-right: 264px;
     width: 100%;
     max-width: 1097px;
 }
@@ -231,7 +225,6 @@ figure {
 }
 
 #greendownimg {
-    width: 640px;
     padding: 0 50px;
     margin: 30px auto;
     text-align: center;
@@ -286,7 +279,8 @@ figure {
 #howtoinner {
     background-color: rgba(255, 255, 255, 0.6);
     border-radius: 30px;
-    width: 1100px;
+    width: 100%;
+    max-width: 1100px;
     height: 370px;
     margin: 72px auto;
     padding: 95px 0;
@@ -305,22 +299,334 @@ figure {
 #inner-img1 {
     position: absolute;
     bottom: -5%;
-    left: -7%;
-    width: 25vw;
+    left: -5%;
 }
 
 #inner-img1 img {
-    width: 50%;
+    width: 40%;
 }
 
 #inner-img2 {
     position: absolute;
-    bottom: -18%;
-    left: 86%;
-    width: 560px;
+    bottom: -10%;
+    left: 83%;
     transform: rotate(11deg);
 }
 
 #inner-img2 img {
-    width: 60%;
+    width: 165%;
+}
+
+#figtext1 {
+    text-align: left;
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+}
+
+#figtext2 {
+    margin-top: 20px;
+    line-height: 1.5;
+    letter-spacing: 1.1px;
+}
+
+#buy {
+    width: auto;
+    margin: 200px auto;
+    text-align: center;
+}
+
+
+#buy a {
+    text-decoration: none;
+    color: #000;
+    transition: 0.3s;
+}
+
+#buy p:hover {
+    background-color: #69a2af6e;
+    transition: 0.3s;
+    border: none;
+}
+
+#buy a:hover {
+    color: #FFF;
+    transition: 0.1s;
+}
+
+#buy p {
+    display: inline;
+    font-size: 24px;
+    border: 2px solid #69a2af;
+    border-radius: 30px;
+    padding: 8px 20px;
+    transition: 0.3s;
+}
+
+footer {
+    width: auto;
+    text-align: center;
+    background-image: url(img/footerbg-img.png);
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    background-size: 50% 100%;
+    padding: 30px 0 20px 0;
+}
+
+footer>p {
+    font-size: 42px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    color: #69a2af;
+    margin-bottom: 71px;
+    margin-top: 22px;
+}
+
+footer span {
+    color: #FFF;
+}
+
+footer small p {
+    margin: 0;
+}
+
+
+
+
+
+
+@media screen and (max-width: 930px) {
+
+    #toptext2 p:nth-child(1) {
+        left: 37%;
+    }
+
+    .main #maintext1 {
+        font-size: 32px;
+    }
+
+    #maininnertext1 {
+        font-size: 27px;
+    }
+
+    #maininnertext2 {
+        font-size: 14px;
+    }
+
+    #mainimginner {
+        width: auto;
+        height: 370px;
+        top: 46%;
+        left: 47%;
+        min-width: 140px;
+    }
+
+    #mainimg {
+        width: auto;
+        min-width: 400px;
+    }
+
+    #green {
+        background-image: none;
+    }
+
+    #greentext1 {
+        font-size: 28px;
+    }
+
+    #greentextbox>p {
+        font-size: 15px;
+    }
+
+    #greendowntext {
+        font-size: 32px;
+    }
+
+    #howtoinner {
+        min-width: 640px;
+    }
+
+    #howtosunmoonimg {
+        left: 40%;
+    }
+
+    #inner-img1 img {
+        width: 26%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+
+    /* header img {
+        width: 50%;
+        min-width: 32px;
+        max-width: 32px;
+    } */
+    #toptext p:nth-child(1) {
+        font-family: 'Open Sans', sans-serif;
+        top: 5%;
+        right: 11%;
+        font-size: 4vw;
+    }
+
+    #toptext p:nth-child(2) {
+        right: 7.5vw;
+        font-size: 0.1vw;
+    }
+
+    #toptext2 p:nth-child(1) {
+        left: 26vw;
+        top: 128%;
+        font-size: 3.1vw;
+    }
+
+    #toptext p:nth-child(3) {
+        right: 1.5vw;
+        font-size: 2.9vw;
+    }
+
+    #question img {
+        margin: 150px auto 110px auto;
+    }
+
+    .main {
+        height: 850px;
+    }
+
+    #mainimg {
+        position: unset;
+        margin: 0 auto;
+        padding: 0px 15px;
+        min-width: 320px;
+    }
+
+    #mainimg img {
+        width: 100%;
+        min-width: 298px;
+    }
+
+    #mainimginner {
+        position: unset;
+        height: 235px;
+        margin: 0 15px;
+    }
+
+    .main #maintext1 {
+        font-size: 15px;
+    }
+
+    #maininnertext1 {
+        padding-top: 8px;
+        margin-top: 2px;
+        font-size: 15px;
+    }
+
+    #maininnertext2 {
+        font-size: 13px;
+        margin-top: 10px;
+    }
+
+    #button {
+        position: unset;
+        margin: 75px;
+    }
+
+    #button a {
+        width: 100px;
+        font-size: 15px;
+    }
+
+    #green {
+        height: 590px;
+    }
+
+    #greentext1 {
+        font-size: 17px;
+    }
+
+    #greentextbox {
+        height: 310px;
+    }
+
+    #greentextbox>p {
+        font-size: 14px;
+        padding: 20px 0;
+    }
+
+    ul figure img {
+        width: 60%;
+        max-width: 142px;
+        min-width: 100px;
+    }
+
+    ul figure figcaption {
+        font-size: 12px;
+    }
+
+    #greendownimg {
+        padding: 0;
+    }
+
+    #greendowntext {
+        font-size: 17px;
+    }
+
+    #howtotext1 p {
+        font-size: 18px;
+        margin-bottom: 6px;
+
+        font-weight: 400;
+    }
+
+    #howtotext1 {
+        width: 237px;
+    }
+
+    #howtoinner {
+        min-width: 360px;
+    }
+
+    #figinner {
+        flex-flow: column;
+    }
+    #howtosunmoonimg {
+        top: -5%;
+    }
+    #figtext1 {
+        font-size: 19px;
+        font-weight: 400;
+        padding-left: 50px;
+    }
+
+    #figtext2 {
+        font-size: 13px;
+        margin: 0%;
+    }
+
+    #howtofigimg img {
+        width: 60%;
+        min-width: 150px;
+        max-width: 150px;
+    }
+    #rightimg {
+        margin-left: 10px;
+    }
+    #rightimg img {
+        padding-top: 0;
+        transform: rotate(90deg);
+    }
+    #howtoinner {
+        height: 554px;
+}
+#inner-img2 {
+
+    bottom: -4%;
+}
+
+#buy {
+    margin: 140px auto;
+}
+#buy p  {
+    font-size: 17px;
+}
 }
