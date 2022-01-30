@@ -67,7 +67,7 @@ header {
 
 #toptext2 p:nth-child(1) {
     left: 37vw;
-    top: 80%;
+    top: 87%;
     font-size: 1.6vw;
 }
 
@@ -478,9 +478,9 @@ footer small p {
     }
 
     #toptext2 p:nth-child(1) {
-        left: 26vw;
-        top: 128%;
-        font-size: 3.1vw;
+        left: 30vw;
+        top: 90%;
+        font-size: 2.1vw;
     }
 
     #toptext p:nth-child(3) {
@@ -489,7 +489,7 @@ footer small p {
     }
 
     #question img {
-        margin: 150px auto 110px auto;
+        margin: 110px auto 110px auto;
     }
 
     .main {
