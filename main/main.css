@@ -8,6 +8,7 @@ body {
     font-weight: 400;
     margin: 0;
     letter-spacing: 1.1px;
+    color: rgb(66, 66, 66)
 }
 /* 
 header {
@@ -80,7 +81,7 @@ header {
 .main {
     width: auto;
     height: 1020px;
-    background: -webkit-linear-gradient(top, #FFF -1%, #85cbdb1a 7%, #85cbdb38);
+    background: -webkit-linear-gradient(top, #FFF -1%, #85cbdb1a 7%, #85cbdb33);
     position: relative;
     overflow: hidden;
 }
@@ -237,10 +238,12 @@ figure {
 #greendowntext {
     font-size: 40px;
     letter-spacing: 1.2px;
-    color: #85cbdb;
     text-align: center;
 }
 
+#textbottom {
+    background:linear-gradient(transparent 75%, #85cbdb42 76%);
+}
 
 #howtouse {
     width: auto;
